@@ -1,0 +1,5 @@
+feat: sistema de riego inteligente con patrones Observer y Factory
+
+- Patron Observer para gestion de alertas
+- Patron Factory Method para creacion de productos y calculo de costos
+- Stack: Java 21, Maven, JUnit 5
