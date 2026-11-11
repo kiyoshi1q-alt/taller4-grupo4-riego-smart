@@ -9,7 +9,7 @@ public class SistemaNotificacion implements Observador {
 
     @Override
     public void actualizar(Alerta alerta, String mensaje) {
-        System.out.println("[" + nombre + "] 🔔 ALERTA: " + alerta);
+        System.out.println("[" + nombre + "] ALERTA: " + alerta);
         System.out.println("    → " + mensaje);
     }
 
