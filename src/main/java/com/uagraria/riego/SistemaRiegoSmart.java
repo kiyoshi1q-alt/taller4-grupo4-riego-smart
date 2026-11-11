@@ -31,15 +31,15 @@ public class SistemaRiegoSmart {
         System.out.println("\n=== PRUEBA DE FÁBRICA DE PRODUCTOS ===");
 
         Producto cultivo = FabricaProducto.crearProducto("CULTIVO", "Maíz", 500, 0.75);
-        System.out.println("✅ Producto: " + cultivo.getNombre() +
+        System.out.println("Producto: " + cultivo.getNombre() +
                 " | Costo: $" + cultivo.calcularCosto());
 
         Producto turno = FabricaProducto.crearProducto("TURNO_RIEGO", "Parcela Norte", 2, 45, 0.50);
-        System.out.println("✅ Producto: " + turno.getNombre() +
+        System.out.println("Producto: " + turno.getNombre() +
                 " | Costo: $" + turno.calcularCosto());
 
         Producto insumo = FabricaProducto.crearProducto("INSUMO_RIEGO", "Fertilizante", 25.5, 12.80);
-        System.out.println("✅ Producto: " + insumo.getNombre() +
+        System.out.println("Producto: " + insumo.getNombre() +
                 " | Costo: $" + insumo.calcularCosto());
 
         System.out.println("\n=== TODAS LAS PRUEBAS COMPLETADAS ===");
